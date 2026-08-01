@@ -385,7 +385,6 @@ export const TECH_SKILLS: TechSkill[] = [
 export const EXPERIENCES: ExperienceItem[] = [
   {
     id: 'exp-1',
-    period: '2023 — Present',
     role: 'Full-Stack & AI Developer (Projects)',
     company: 'Independent Developer',
     location: 'Bhopal, India',
@@ -399,7 +398,6 @@ export const EXPERIENCES: ExperienceItem[] = [
   },
   {
     id: 'exp-2',
-    period: '2023 — 2024',
     role: 'AR & Unity Developer',
     company: 'Immersive Tech Projects',
     location: 'India',
@@ -415,9 +413,9 @@ export const EXPERIENCES: ExperienceItem[] = [
 export const EDUCATION: ExperienceItem[] = [
   {
     id: 'edu-1',
-    period: '2022 — Present',
-    role: 'B.Tech in Computer Science & Engineering',
-    company: 'Computer Science Department',
+    period: '2023 — 2027',
+    role: 'B.Tech in CSE (Gaming Technology)',
+    company: 'VIT Bhopal University',
     location: 'India',
     description: 'Focusing on Software Engineering, Data Structures & Algorithms, Full-Stack Web Development, Artificial Intelligence, and Computer Graphics.',
     highlights: [

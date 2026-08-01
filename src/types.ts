@@ -30,7 +30,7 @@ export interface TechSkill {
 
 export interface ExperienceItem {
   id: string;
-  period: string;
+  period?: string;
   role: string;
   company: string;
   location?: string;

@@ -297,9 +297,11 @@ export const AboutView: React.FC<AboutViewProps> = ({ setActiveTab }) => {
                       <h3 className="font-headline text-lg font-bold text-white">{exp.role}</h3>
                       <p className="font-code text-xs text-[#adc6ff]">{exp.company}</p>
                     </div>
+                    {exp.period && (
                     <span className="font-code text-xs px-2.5 py-1 bg-[#cebdff]/10 text-[#cebdff] rounded-md border border-[#cebdff]/20">
                       {exp.period}
                     </span>
+                    )}
                   </div>
                   <p className="font-sans text-xs text-[#cac4d4] leading-relaxed">{exp.description}</p>
                   <ul className="space-y-1.5 pt-2">
